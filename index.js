@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 
 app.get('/', function(req, res){
-  res.send('Socket server is running-1');
+  res.send('Socket server is running-4');
 });
 var fileServer = new nodeStatic.Server();
 const server = http.createServer(app, function (req, res) {
